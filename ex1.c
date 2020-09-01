@@ -12,7 +12,7 @@ int main(){
     printf("Address of pointer pc:%p\n",pc);
     printf("Content of pointer pc:%d\n\n",*pc);
     *pc=2;
-    printf("Address of c:%d\n",&c);
+    printf("Address of c:%p\n",&c);
     printf("Value of c:%d\n\n",c);
     return 0;
 }
